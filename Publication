@@ -1,0 +1,28 @@
+Publication:
+public class publication {
+    Public String title;
+    Public double price;
+    Public publication(){
+    }
+    Public publication(String title, double price){
+        This.title = title;
+        This.price= price;
+    }    
+    Public void setTile(String title){
+        This.title = title;
+    }    
+    Public void setPrice(double price){
+        This.price = price;
+    }
+    Public String getTitle(){
+        Return title;
+    }   
+    Public double getPrice(){
+        Return price;
+    }
+    Public void display(){
+        System.out.println(“title is : “+getTitle()+” price is : “+getPrice());
+        
+    }
+    
+}
