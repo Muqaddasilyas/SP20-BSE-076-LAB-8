@@ -1,0 +1,41 @@
+extends publication
+public class book extends publication{
+    Public int pagecount;
+    Public book(){
+    Public book(String title, double price,int pagecount){
+        Super(title, price);
+        This.pagecount = pagecount;
+    }   
+    Public void setPageCount(int pagecount){
+        This.pagecount = pagecount;
+    }
+    Public int getPageCount(){
+        Return pagecount;
+    }  
+    Public void display(){    
+        Super.display();
+        System.out.println(“\nPage Count : “+getPageCount()+”\n”);   
+    } 
+}
+public class tape extends publication { 
+    Public String mins;
+    Public tape(){
+        Super();
+    }
+    Public tape(String title, double price, String mins){
+        Super(title, price);
+        This.mins = mins;
+    }
+    Public void setmins(String mins){
+        This.mins = mins;
+    }
+    Public String getmins(){
+        Return mins;
+    }
+    Public void display(){    
+        Super.display();
+        System.out.println(“\nRunning Time : “+getmins()+”\n”);
+    }
+       
+}
+
