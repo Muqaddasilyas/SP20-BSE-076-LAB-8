@@ -1,0 +1,18 @@
+Computer:
+ public class Computer {
+   Protected String wordsize;
+   Protected String memorysize;
+   Protected String storagesize;
+   Protected String speed;
+   Public Computer(){
+   }
+   Public Computer(String wordsize, String memorysize, String storagesize, String speed){
+       This.wordsize = wordsize;
+       This.memorysize = memorysize;
+       This.storagesize= storagesize;
+       This.speed= speed;
+   }
+   Public void display(){
+       System.out.println(“word size :”+this.wordsize+”memory size :”+this.memorysize+”storage size :”+this.storagesize+”speed :”+this.speed”);
+   }    
+}
