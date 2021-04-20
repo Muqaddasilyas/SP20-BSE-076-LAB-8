@@ -1,0 +1,9 @@
+Computer runner:
+public class Computer_runner {
+    Public static void main (String[]args){
+        Computer comp = new Computer(“64 bits”, “ 2500 bytes”, “250000 bytes”, “1600 megahertz”);
+        Comp.display();
+        Laptop lap = new laptop(“34 bits”, “ 4250 bytes”, “500000 bytes”, “6400 megahertz”, “245cm”, “190cm”, “295cm”, “0.5kg”);
+        Lap.display();
+    }  
+}
