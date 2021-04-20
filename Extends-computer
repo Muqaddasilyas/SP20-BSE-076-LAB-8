@@ -1,0 +1,23 @@
+extends Computer:
+public class laptop extends Computer{
+    Protected String length;
+    Protected String width;
+    Protected String height;
+    Protected String weight;
+    
+    Public laptop(){
+        Super();
+    }
+    Public laptop(String a, String b, String c, String d, String e, String f, String g, String h){
+        Super(a, b, c, d);
+        This.lenght = e;
+        This.width = f;
+        This.height = g;
+        This.weight = h;
+    }
+    Public void display(){
+        System.out.println(“\n”);
+        Super.display();
+        System.out.println(“length :”+this.lenght+”width :”+this.width+”height :”+this.height+”weight :”+this.weight);
+    }
+}
