@@ -1,0 +1,13 @@
+public class publication_runner {
+    Public static void main (String[]args){
+        Publication p = new publication();
+        p.setTile(“data structures and algorithms in c++”);
+        p.setPrice(500);
+        p.display();     
+        book b = new book(“object oriented programming”, 200, 57);
+        b.display();
+        tape t = new tape(“xyz”, 900, “90 minutes”);
+        t.display();
+    }
+    
+}
